@@ -24,7 +24,7 @@ phases:
 
       - echo Installing Maven...
 
-      - yum install -y maven
+      - yum install -y maven -DskipTests
  
   pre_build:
 
