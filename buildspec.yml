@@ -16,7 +16,7 @@ phases:
     commands:
       - echo Installing Maven and Docker...
       - yum install -y maven docker
-      - service docker start
+      #- service docker start
 
   pre_build:
     commands:
